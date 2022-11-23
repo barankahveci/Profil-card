@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background: url(img/bg.jpg);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 500px;
+    height: 80%;
+    text-align: center;
+    background: rgba(27, 23, 83, 0.699);
+    box-shadow: 1px 1px 11px rgba(18, 11, 119, 0.699) ;
+
+}
+
+.container .logo img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 50px;
+
+}
+.container .main h2{
+    margin: 20px 0 10px 0;
+    color: white;
+    font-size:50px;
+    text-shadow: 1px 1px 8px black;
+    letter-spacing: 1px;
+}
+.container .main .main-a{
+    display: inline-block;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    margin: 0 0 10px 0;
+    color: rgb(53,98,157);
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.5s color;
+}
+.container .main .main-a:hover{
+    color: white;
+}
+.container .main .sosyal{
+    margin-top: 15px;
+}
+.container .main .sosyal ul{
+    display: flex;
+    column-gap: 50px;
+    font-size: 25px;
+    justify-content: center;
+}
+.container .main .sosyal ul li a{
+    color: white;
+    transition: 0.5s color;
+}
+.container .main .sosyal ul li a:hover{
+    color: rgb(53,98,157);  
+}
+.container .main .btn{
+    margin-top: 60px;
+}
+.container .main .btn button{
+    padding: 10px 60px;
+    border: 1px solid rgba(255,255,255, 0.3);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    background: none;
+    font-size: 18px;
+
+    transition: all 0.5s;
+}
+.container .main .btn button:hover{
+    background: rgba(53,98,157, 0.8);
+}
+.container .info{
+    margin-top: 50px;
+    height: 232px;
+    background: rgba(255,255,255, 0.15);
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    color: white;
+    
+}
+.info h3{
+    font-size: 40px;
+    padding: 0 35px;
+}
+.info h3 p{
+    font-size: 15px;
+}
